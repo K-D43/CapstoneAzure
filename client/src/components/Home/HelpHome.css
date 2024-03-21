@@ -1,0 +1,75 @@
+@media only screen  and (min-width : 1224px) {
+.helpHome{
+    position: relative;
+    padding: 2.2%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.hh-h2, .hh-h3{
+    text-align: left;
+}
+.hh-p{
+    text-align: left;
+}
+.safe{
+    margin-left: 0;
+    position: absolute;
+    left: 3.5%;
+    top: 150%;
+}
+.hh-h3{
+    display: inline-block;
+}
+.traffic{
+    width: 25%;
+    position: absolute;
+    top: 142%;
+    left: 35.3%;
+}
+.h3-safe{
+    position: absolute;
+    top: 102%;
+    left: 2.8%;
+}
+.h3-traffic{
+    position: absolute;
+    top: 101%;
+    left: 34%;
+}
+.friends{
+    width: 20%;
+    position: absolute;
+    top: 128%;
+    right: 7%;
+}
+.h3-friends{
+    position: absolute;
+    top: 101%;
+    right: 17.5%;
+}
+}
+@media only screen and (max-width : 480px){
+    .helpHome{
+        position: relative;
+        padding: 2.2%;
+        padding-top: 5%;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    .hh-h2{
+        margin-top: 7%;
+    }
+    .hh-p{
+        text-align: left;
+    }
+    .hh-img{
+        margin-bottom: 5%;
+    }
+    .traffic{
+        width: 100%;
+        margin-bottom: 7%;
+    }
+    .friend-img{
+        width: 100%;
+    }
+}

@@ -1,0 +1,13 @@
+
+###
+GET  http://localhost:4000/user
+Content-Type: application/json
+###
+GET  http://localhost:4000/user/getemail/123456@gmail.com
+Content-Type: application/json
+###
+GET  http://localhost:4000/user/getphone/+918840099604
+Content-Type: application/json
+###
+GET  http://localhost:4000/user/getboth/ayush2@gmail.com/+919935092454
+Content-Type: application/json

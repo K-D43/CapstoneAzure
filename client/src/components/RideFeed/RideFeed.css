@@ -1,0 +1,365 @@
+@media only screen  and (min-width : 1224px){
+.form-submit{
+   margin-top: 50px;
+   position: relative;
+}
+
+.cards-left{
+  margin-top: 150px;
+  
+}
+.card-text strt{
+  padding-right: 50px;
+}
+.carda{
+   width: 30rem;
+   height: 10rem;
+   padding: 10px;
+   border: 4px;
+   
+   margin-bottom: 50px;
+   left: 22%;
+   top: 45%;
+}
+.price{
+   position: absolute;
+   right: 35px;
+   top: 20px;
+}
+#myhr
+{
+  background-color:#000000;
+  color:#000000;
+  -webkit-transform:rotate(90deg);
+  width: 60px;
+  position: absolute;
+  left: 50px;
+  height: 2px;
+  
+  
+}
+.from{
+   position: absolute;
+   left: 100px;
+   top: 15px;
+}
+.to{
+   position: absolute;
+   left: 100px;
+   top: 65px;
+}
+.strt{
+   position: absolute;
+   left: 20px;
+   top: 15px;
+}
+.end{
+   position: absolute;
+   left: 20px;
+   top: 65px;
+}
+.pic{
+   position: absolute;
+   bottom: 10px;
+   left: 20px;
+   width: 12%;
+}
+.name{
+   position: absolute;
+   bottom: 17px;
+   left: 85px;
+}
+.rating{
+   position: absolute;
+   bottom: 5px;
+   left: 85px;
+}
+.text-feed{
+   position: absolute;
+   top: 250px;
+   left: 330px;
+   margin-bottom: 150px;
+}
+.h2-sort{
+  position: absolute;
+  top: 250px;
+  left: 62%;
+}
+.h3-clear{
+  position: absolute;
+  top: 250px;
+  left: 75%;
+}
+.dep{
+  position: absolute;
+  top: 40%;
+  left: 64%;
+}
+.dep-rad{
+  position: absolute;
+  top: 40.9%;
+  left: 75%;
+}
+.low{
+  position: absolute;
+  top: 45%;
+  left: 64%;
+}
+.low-rad{
+  position: absolute;
+  top: 45.9%;
+  left: 75%;
+}
+.close-dep{
+  position: absolute;
+  top: 50%;
+  left: 64%;
+}
+.close-dep-rad{
+  position: absolute;
+  top: 50.9%;
+  left: 75%;
+}
+
+.close-arr{
+  position: absolute;
+  top: 55%;
+  left: 64%;
+}
+
+.close-arr-rad{
+  position: absolute;
+  top: 55.9%;
+}
+
+.short-ride{
+  position: absolute;
+  top: 60%;
+  left: 64%;
+}
+
+.short-ride-rad{
+  position: absolute;
+  top: 60.9%;
+}
+
+.rad{
+  position: absolute;
+  left: 77%;
+}
+.sep-top{
+  position: absolute;
+  top: 70%;
+  left: 60%;
+}
+.h2-departure{
+  position: absolute;
+  top: 75%;
+  left: 62%;
+}
+.p-before-6{
+  position: absolute;
+  top: 80%;
+  left: 64%;
+}
+.p-6-12{
+  position: absolute;
+  top: 85%;
+  left: 64%;
+}
+.p-12-8{
+  position: absolute;
+  top: 90%;
+  left: 64%;
+}
+.p-after-18{
+  position: absolute;
+  top: 95%;
+  left: 64%;
+}
+.sq-6{
+  position: absolute;
+  top: 80.5%;
+  left: 77%;
+}
+.sq-6-12{
+  position: absolute;
+  top: 85.5%;
+  left: 77%;
+}
+.sq-12-18{
+  position: absolute;
+  top: 90.5%;
+  left: 77%;
+}
+.sq-after-18{
+  position: absolute;
+  top: 95.5%;
+  left: 77%;
+}
+.sep-btm{
+  position: absolute;
+  top: 105%;
+  left: 60%;
+}
+.h3-trust{
+  position: absolute;
+  top: 110%;
+  left: 64%;
+}
+.foot{
+  position: absolute;
+  top: 120%;
+  width: 100%;
+}
+.fCard{
+  display: block;
+}
+.source-dest{
+  position: absolute;
+  top: 0;
+  
+}
+.myhr-rideFeed{
+  position: absolute;
+  bottom: 90px;
+  margin-left: 45px;  
+}
+.r-f-foot{
+  position: absolute;
+  width: 100%;
+}
+}
+@media only screen and (max-width : 480px)  {
+  .form-submit{
+    margin-top: 7%;
+  }
+  .input-from{
+      /*color: gray;*/
+      border-radius: 25px 0 0 25px;
+      padding-right: 20px;
+      padding-left: 20px;
+  }
+  .input-to{
+      /*color: gray;*/
+      border-radius: 0 25px 25px 0;
+      padding-left: 20px;
+      border-style: solid black;
+      border-width: 2px;
+  }
+  .inp-media-from{
+      border-radius: 25px 0 0 25px;
+      padding-right: 20px;
+      padding-left: 20px;
+      margin-left: 2.5%;
+      margin-top: 3%;
+      margin-bottom: 5%;
+  }
+  .search-form{
+      margin-bottom: 5%;
+  }
+  .img-main{
+      width: 100%;
+  }
+  .h2-sort{
+    position: absolute;
+    top: 32%;
+    left: 15%;
+  }
+  .h3-clear{
+    position: absolute;
+    top: 32%;
+    left: 75%;
+  }
+  .dep{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+  }
+  .dep-rad{
+    position: absolute;
+    top: 41%;
+    left: 70%;
+  }
+  .low{
+    position: absolute;
+    top: 45%;
+    left: 20%;
+  }
+  .low-rad{
+    position: absolute;
+    top: 46%;
+    left: 70%;
+  }
+  .close-dep{
+    position: absolute;
+    top: 49%;
+    left: 20%;
+  }
+  .close-dep-rad{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+  }
+  .close-arr{
+    position: absolute;
+    top: 54%;
+    left: 20%;
+  }
+  .close-arr-rad{
+    position: absolute;
+    top: 55%;
+    left: 70%;
+  }
+  .short-ride{
+    position: absolute;
+    top: 58%;
+    left: 20%;
+  }
+  .short-ride-rad{
+    position: absolute;
+    top: 59%;
+    left: 70%;
+  }
+  .sep-top{
+    position: relative;
+    top: 100%;
+  }
+  .helper-media{
+    margin-top: 70%;
+    margin-left: 6.5%;
+    margin-bottom: 15%;
+  }
+  .h2-departure{
+    margin-top: 35px;
+    margin-bottom: 30px;
+  }
+  .media-p{
+    text-align: left;
+    margin-left: 18%;
+  }
+  .media-sq{
+    margin-left:68%;
+  }
+  .m-s-6{
+    position: relative;
+    top:-35px;
+  }
+  .carda{
+    background-color: #cfd5d2;
+    width: 80%;
+    height: 100%;
+    padding: 10px;
+    border: 4px;
+    
+    margin-bottom: 50px;
+    margin-left: 10%;
+ }
+ .cards-left{
+  margin-bottom: 300px;
+ }
+ .media-r-f-foot{
+  position: absolute;
+  width: 100%;
+ }
+}

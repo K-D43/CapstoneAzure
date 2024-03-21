@@ -1,0 +1,63 @@
+@media only screen  and (min-width : 1224px) {
+.service{
+    position: relative;
+    background-color: #0F9D58;
+    padding: 75px;
+    color: white;
+}
+.p-left{
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+.p-right{
+    text-align: left;
+    width: 40%;
+    margin-left: 850px;
+    display: inline-block;
+    
+}
+.home-img{
+    display: inline-block;
+    margin-left: 900px;
+    
+    width: 15%;
+}
+.create-p-ride{
+    position: absolute;
+    top: 42%;
+    left: 44%;
+}
+.car-img{
+    width: 10%;
+    display: inline-block;
+    position: absolute;
+    bottom: 45px;
+    left: 15%;
+    
+}
+}
+@media only screen and (max-width : 480px){
+    .service{
+        position: relative;
+        background-color: #0F9D58;
+        padding: 10%;
+        color: white;
+    }
+    .home-img{
+        width: 80%;
+        margin-bottom: 10%;
+    }
+    .p-left{
+        
+        text-align: left;
+        margin-top: 10%;
+    }
+    .p-right{
+        margin-top: 10%;
+        text-align: left;
+    }
+}

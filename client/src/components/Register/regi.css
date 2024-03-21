@@ -1,0 +1,20 @@
+.Botton{
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+#foott{
+    background-color: "black";
+}
+.bool-radio{
+    display: inline;
+}
+.are-rider{
+    display: inline;
+    margin-left: 4px;
+}
+/* .sign-inp{
+    width: 900px;
+} */

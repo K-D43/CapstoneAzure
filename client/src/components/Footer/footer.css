@@ -1,0 +1,22 @@
+.container-foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    background-color: #0F9D58;
+    height: 70px;
+}
+.foot-text{
+    color: #ffff;
+}
+.ms-3{
+    color: black;
+    height: 70%;
+}
+footer >ul  {
+    list-style-type: none;
+    background-color: aqua;
+    display: inline-block;
+
+}
