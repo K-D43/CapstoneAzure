@@ -24,9 +24,9 @@ const TripDetails = require('./Router/TripDetails');
 const RiderLogin = require('./Router/RiderLogin');
 const PassengerRoute = require('./Router/Passenger')
 
-
+app.use(express.static("./client/build"));
 app.get("/",function(req,res){
-    res.sendFile(__dirname+"/index.html");
+    res.sendFile(path.resolve(__dirname, "client", "build", "/index.html"));
 });
 
 app.use('/user', UserRoute);
