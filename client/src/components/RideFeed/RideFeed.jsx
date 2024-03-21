@@ -1,16 +1,16 @@
-import React, { useEffect, useState,useRef } from "react";
+import React, { useEffect, useState } from "react";
 import Headers from "../Header/headers";
-import axios from 'axios'
+// import axios from 'axios'
 import {Server} from "../Server/Server"
 import "./RideFeed.css";
 import FeedCard from "./FeedCard";
 import { toast, Toaster } from "react-hot-toast";
 
-import pic from "../../assets/proflic-pic.png";
+// import pic from "../../assets/proflic-pic.png";
 import Footer from "../Footer/Footer";
 import { useNavigate } from "react-router-dom";
 export default function RideFeed(){
-    // const [RiderInfo,setRiderInfo] = useState([]);
+    // const [RiderInfo,setRiderInfo] = useState([])d;
     const [riderInfo, setRiderInfo] = useState([])
     const navigate = useNavigate();
     useEffect(()=>{
@@ -42,7 +42,9 @@ export default function RideFeed(){
     
     
    }
-//  Checking the Rider Is a Valid or not
+
+useEffect(()=>{
+    //  Checking the Rider Is a Valid or not
 const CheckData =()=>{
     if(localStorage.getItem("token")!=null){
       JSON.parse(localStorage.getItem("token"))
@@ -53,8 +55,9 @@ const CheckData =()=>{
         navigate('/login');  
     }
 }
-useEffect(()=>{
+
     CheckData()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
    },[]) 
 
    console.log(riderInfo);
@@ -126,8 +129,8 @@ useEffect(()=>{
     )
 }
 
-
-{/* <tr key={info._id}>
+// eslint-disable-next-line react-hooks/exhaustive-deps
+/* <tr key={info._id}>
 <div className="fCard">
     <div class="card carda">
       <div class="card-body">
@@ -146,4 +149,4 @@ useEffect(()=>{
       </div>
     </div>
 </div>
-</tr> */}
+</tr> */
